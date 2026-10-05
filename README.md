@@ -172,8 +172,9 @@ Puede considerar las siguientes preguntas:
 - ¿Cómo contribuyó la implementación práctica a comprender el funcionamiento de un programa en lenguaje ensamblador?
 - ¿Qué harían diferente si tuvieran que resolver nuevamente la actividad?
 
-> **Importante:** las conclusiones deben centrarse en la experiencia de aprendizaje y no limitarse a enumerar aspectos técnicos o instrucciones MIPS utilizadas.
 Aprendimos que hay más syscalls de las que pensábamos. Lo más complicado, de hecho, fue justamente buscar cómo imprimir cosas en pantalla. Buscamos en línea formas de hacerlo utilizando herramientas que ya conocíamos, lo que nos llevó a las syscalls. De ahí fue cuestión de buscar que número debíamos usar para la syscall. El implementar las syscalls nos permitió ver claramente la importancia del uso de registros para algo más que almacenar resultados de operaciones. De poder resolver nuevamente la actividad, buscaríamos utilizar nombres más descriptivos para las varibles.
+
+> **Importante:** las conclusiones deben centrarse en la experiencia de aprendizaje y no limitarse a enumerar aspectos técnicos o instrucciones MIPS utilizadas.
 
 ---
 
