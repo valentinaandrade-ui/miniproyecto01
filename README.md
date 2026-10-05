@@ -88,7 +88,7 @@ version_base/programa_base.s
 
 Describa brevemente el estado inicial del programa:
 
-[Escriba aquí.]
+El programa únicamente calcula las diferencias mañana-tarde y tarde-mañana. Los valores de las temperaturas están almacenadas en la memoria, no en registros. 
 
 ### Versión final
 
@@ -121,21 +121,42 @@ Incluya capturas de pantalla que permitan comprobar el desarrollo y funcionamien
 ![Código MIPS](evidencias/codigo.png)
 
 **Descripción:**  
-[Explique qué se observa en la captura.]
+En la captura #1, se muestra:
+1) La declaración de los mensajes que se mostrarán en pantalla
+2) La declaración de las variables con las temperaturas y las variables que almacenarán las restas
+3) La carga de datos desde la memoria en registros
+4) Las restas mañana-tarde y tarde mañana. Almacenamiento de los resultados en dos registros
+5) Guardado de resultados en memoria
+6) Comparación de las temperaturas y salto a Mensaje1 si se cumple la condición
+7) Mensaje1: Código syscall para mostrar el mensaje correspondiente en pantalla
+
+En la captura #2, se muestra:
+1) Si no se cumple la condición, salto a Mensaje 2: se muestra el mensaje correspondiente
+2) MostrarTemp: se muestran las dos temperaturas y saltos de líneas usando syscall
 
 ### Registros
 
 ![Registros](evidencias/registros.png)
 
 **Descripción:**  
-[Identifique los principales registros y explique los valores obtenidos.]
+1) $t2: -8
+Diferencia dato1-dato2
+
+2) $t3: 8
+Diferencia dato2-dato1
+
+3) $t0: 22
+dato1
+
+4) $t1: 30
+dato2
 
 ### Resultado
 
 ![Resultado del programa](evidencias/resultado.png)
 
 **Descripción:**  
-[Explique el resultado mostrado por pantalla.]
+Se muestran las dos temperaturas utilizadas (22 y 30). Además, se muestra el mensaje: "Las dos temperaturas son diferentes." porque las temperaturas son diferentes.
 
 ---
 
@@ -152,6 +173,7 @@ Puede considerar las siguientes preguntas:
 - ¿Qué harían diferente si tuvieran que resolver nuevamente la actividad?
 
 > **Importante:** las conclusiones deben centrarse en la experiencia de aprendizaje y no limitarse a enumerar aspectos técnicos o instrucciones MIPS utilizadas.
+Aprendimos que hay más syscalls de las que pensábamos. Lo más complicado, de hecho, fue justamente buscar cómo imprimir cosas en pantalla. Buscamos en línea formas de hacerlo utilizando herramientas que ya conocíamos, lo que nos llevó a las syscalls. De ahí fue cuestión de buscar que número debíamos usar para la syscall. El implementar las syscalls nos permitió ver claramente la importancia del uso de registros para algo más que almacenar resultados de operaciones. De poder resolver nuevamente la actividad, buscaríamos utilizar nombres más descriptivos para las varibles.
 
 ---
 
