@@ -1,6 +1,6 @@
 # MINIPROYECTO01
 
-**Asignatura:** UCOM250: ARQUITECTURA Y ORGANIZACIÓN DE COMPUTADORAS  
+**Asignatura:** UCOM250 - ARQUITECTURA Y ORGANIZACIÓN DE COMPUTADORAS  
 **Integrantes:** VALENTINA ANDRADE Y SASKIA BRITO  
 **Año:** 2026  
 **Fecha:** 04-10
@@ -245,10 +245,8 @@ http://courses.missouristate.edu/kenvollmar/mars/
 
 ### Referencias utilizadas
 
-1. [Autor o institución]. ([Año]). *[Título del recurso]*. [URL]
+1. Andrade, V., & Brito, S. (2026). Diferencia de temperaturas: Implementación en lenguaje ensamblador MIPS (Mini proyecto, Fase 1) [Trabajo académico no publicado]. Universidad de Especialidades Espíritu Santo.
 
-2. [Autor o institución]. ([Año]). *[Título del recurso]*. [URL]
+2. mipsy. (s/f). Edu.au. Recuperado https://cgi.cse.unsw.edu.au/~cs1521/mipsy/ el 22 de septiembre de 2026, de 
 
-3. [Apellido, Inicial]. ([Año]). *[Título del libro]*. [Editorial]
-
-4. [Autor o institución]. ([Año]). *[Título de la documentación]*. [URL]
+3. West, Z. (2020, noviembre 27). MIPS Store Word (sw) vs. Load Word (lw). alpharithms. Αlphαrithms. https://www.alpharithms.com/mips-store-word-sw-vs-load-word-lw-475521/ 
