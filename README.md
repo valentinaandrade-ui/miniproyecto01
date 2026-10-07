@@ -118,7 +118,11 @@ Incluya capturas de pantalla que permitan comprobar el desarrollo y funcionamien
 
 ### Código
 
-![Código MIPS](evidencias/codigo.png)
+![Código MIPS](evidencias/codigoParte1.png)
+
+
+![Código MIPS](evidencias/codigoParte2.png)
+
 
 **Descripción:**  
 En la captura #1, se muestra:
@@ -153,7 +157,7 @@ dato2
 
 ### Resultado
 
-![Resultado del programa](evidencias/resultado.png)
+![Resultado del programa](evidencias/resultados.png)
 
 **Descripción:**  
 Se muestran las dos temperaturas utilizadas (22 y 30). Además, se muestra el mensaje: "Las dos temperaturas son diferentes." porque las temperaturas son diferentes.
