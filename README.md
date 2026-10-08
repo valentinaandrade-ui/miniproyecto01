@@ -11,7 +11,7 @@
 
 ### Escenario
 
-**escenario asignado al grupo**
+**Escenario asignado al grupo**
 
 El escenario es: Diferencia de temperaturas. La idea es registrar la temperatura en dos momentos diferentes del día, mostrar la diferencia entre los valores e indicar si verdaderamente cambió la temperatura.
 
