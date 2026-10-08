@@ -11,13 +11,11 @@
 
 ### Escenario
 
-Describa de manera clara y resumida el **escenario asignado al grupo**, explicando la situación planteada.
+**escenario asignado al grupo**
 
 El escenario es: Diferencia de temperaturas. La idea es registrar la temperatura en dos momentos diferentes del día, mostrar la diferencia entre los valores e indicar si verdaderamente cambió la temperatura.
 
 ### Resultado
-
-Describa qué debe realizar el programa y qué información deberá mostrar al finalizar su ejecución.
 
 Se deben comparar ambas temperaturas en dos momentos del día (mañana y tarde), y si son diferentes, se tendrá que mostrar el mensaje “Las temperaturas son diferentes” junto con las temperaturas en cuestión. Los valores de temperatura asignados se mantienen iguales, por lo que la condición de diferencia siempre se cumplirá con estos datos. Además, se muestra las diferencias entre las temperaturas (mañana-tarde y tarde-mañana).
 
@@ -26,8 +24,6 @@ Se deben comparar ambas temperaturas en dos momentos del día (mañana y tarde),
 ## Análisis
 
 ### Datos del programa
-
-Identifique los datos proporcionados y almacenados en memoria. Explique qué representa cada uno dentro del escenario y los resultados que se espera obtener al finalizar la ejecución.
 
 | Dato | Valor inicial | Propósito |
 |---|---:|---|
@@ -41,8 +37,6 @@ Identifique los datos proporcionados y almacenados en memoria. Explique qué rep
 | temperatura2 | --- | muestra el valor de dato2 (temperatura tarde) |
 
 ### Operaciones requeridas
-
-Identifique las operaciones necesarias para resolver el escenario y relaciónelas con las instrucciones MIPS correspondientes.
 
 | Datos / Resultados | Propósito | Operación requerida | Instrucción MIPS |
 |---|---|---|---|
