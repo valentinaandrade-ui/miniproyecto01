@@ -244,7 +244,8 @@ http://courses.missouristate.edu/kenvollmar/mars/
 ### Referencias utilizadas
 
 1. Andrade, V., & Brito, S. (2026). Diferencia de temperaturas: Implementación en lenguaje ensamblador MIPS (Mini proyecto, Fase 1) [Trabajo académico no publicado]. Universidad de Especialidades Espíritu Santo.
+2. Andrade, V., & Brito, S. (2026). Diferencia de temperaturas: Implementación en lenguaje ensamblador MIPS (Mini proyecto, Fase 2) [Trabajo académico no publicado]. Universidad de Especialidades Espíritu Santo.
 
-2. mipsy. (s/f). Edu.au. Recuperado https://cgi.cse.unsw.edu.au/~cs1521/mipsy/ el 22 de septiembre de 2026, de 
+3. mipsy. (s/f). Edu.au. Recuperado https://cgi.cse.unsw.edu.au/~cs1521/mipsy/ el 22 de septiembre de 2026, de 
 
-3. West, Z. (2020, noviembre 27). MIPS Store Word (sw) vs. Load Word (lw). alpharithms. Αlphαrithms. https://www.alpharithms.com/mips-store-word-sw-vs-load-word-lw-475521/ 
+4. West, Z. (2020, noviembre 27). MIPS Store Word (sw) vs. Load Word (lw). alpharithms. Αlphαrithms. https://www.alpharithms.com/mips-store-word-sw-vs-load-word-lw-475521/ 
